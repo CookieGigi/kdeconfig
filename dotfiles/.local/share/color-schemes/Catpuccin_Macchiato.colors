@@ -1,11 +1,9 @@
 [ColorEffects:Disabled]
-ChangeSelectionColor=
 Color=36, 39, 58
 ColorAmount=0.30000000000000004
 ColorEffect=2
 ContrastAmount=0.1
 ContrastEffect=0
-Enable=
 IntensityAmount=-1
 IntensityEffect=0
 
@@ -34,6 +32,7 @@ ForegroundNormal=202, 211, 245
 ForegroundPositive=166, 218, 149
 ForegroundVisited=198, 160, 246
 
+
 [Colors:Complementary]
 BackgroundAlternate=24, 25, 38
 BackgroundNormal=30, 32, 48
@@ -47,6 +46,7 @@ ForegroundNeutral=238, 212, 159
 ForegroundNormal=202, 211, 245
 ForegroundPositive=166, 218, 149
 ForegroundVisited=198, 160, 246
+
 
 [Colors:Header]
 BackgroundAlternate=24, 25, 38
@@ -62,33 +62,22 @@ ForegroundNormal=202, 211, 245
 ForegroundPositive=166, 218, 149
 ForegroundVisited=198, 160, 246
 
-[Colors:Header][Inactive]
-BackgroundAlternate[$d]
-BackgroundNormal[$d]
-DecorationFocus[$d]
-DecorationHover[$d]
-ForegroundActive[$d]
-ForegroundInactive[$d]
-ForegroundLink[$d]
-ForegroundNegative[$d]
-ForegroundNeutral[$d]
-ForegroundNormal[$d]
-ForegroundPositive[$d]
-ForegroundVisited[$d]
 
 [Colors:Selection]
 BackgroundAlternate=166,218,149
 BackgroundNormal=166,218,149
 DecorationFocus=166,218,149
 DecorationHover=54, 58, 79
-ForegroundActive=245, 169, 127
+ForegroundLink=166,218,149
 ForegroundInactive=30, 32, 48
+ForegroundActive=245, 169, 127
 ForegroundLink=166,218,149
 ForegroundNegative=237, 135, 150
 ForegroundNeutral=238, 212, 159
 ForegroundNormal=24, 25, 38
 ForegroundPositive=166, 218, 149
 ForegroundVisited=198, 160, 246
+
 
 [Colors:Tooltip]
 BackgroundAlternate=27,25,35
@@ -104,6 +93,7 @@ ForegroundNormal=202, 211, 245
 ForegroundPositive=166, 218, 149
 ForegroundVisited=198, 160, 246
 
+
 [Colors:View]
 BackgroundAlternate=30, 32, 48
 BackgroundNormal=36, 39, 58
@@ -117,6 +107,7 @@ ForegroundNeutral=238, 212, 159
 ForegroundNormal=202, 211, 245
 ForegroundPositive=166, 218, 149
 ForegroundVisited=198, 160, 246
+
 
 [Colors:Window]
 BackgroundAlternate=24, 25, 38
@@ -132,38 +123,22 @@ ForegroundNormal=202, 211, 245
 ForegroundPositive=166, 218, 149
 ForegroundVisited=198, 160, 246
 
-[DirSelect Dialog]
-DirSelectDialog Size=820,584
-History Items[$e]=file:$HOME/Documents/Documents/Note
-Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
 [General]
-ColorScheme=Catpuccin_Macchiato
-ColorSchemeHash=3b0b7b7f6fa70c9f360b5a78837836d8971524f3
+ColorScheme=CatppuccinMacchiatoGreen
+Name=Catppuccin Macchiato Green
+accentActiveTitlebar=false
+shadeSortColumn=true
 
-[KFileDialog Settings]
-Allow Expansion=false
-Automatically select filename extension=true
-Breadcrumb Navigation=true
-Decoration position=2
-LocationCombo Completionmode=5
-PathCombo Completionmode=5
-Show Bookmarks=false
-Show Full Path=false
-Show Inline Previews=true
-Show Speedbar=true
-Show hidden files=false
-Sort by=Name
-Sort directories first=true
-Sort hidden files last=false
-Sort reversed=false
-Speedbar Width=140
-View Style=DetailTree
+
+[KDE]
+contrast=4
+
 
 [WM]
-activeBackground=36,39,58
-activeBlend=202,211,245
-activeForeground=202,211,245
-inactiveBackground=24,25,38
-inactiveBlend=165,173,203
-inactiveForeground=165,173,203
+activeBackground=36, 39, 58
+activeBlend=202, 211, 245
+activeForeground=202, 211, 245
+inactiveBackground=24, 25, 38
+inactiveBlend=165, 173, 203
+inactiveForeground=165, 173, 203
