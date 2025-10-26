@@ -1,0 +1,31 @@
+[1345d034-3bfe-42ff-83ab-9ee8b6cee0ac]
+Description=open obsidian
+desktops=c48724d9-52a3-4d26-be29-d8520876603f
+desktopsrule=3
+wmclass=obsidian
+wmclassmatch=1
+
+[3cb0c162-a1cc-4012-8c3d-61a509eca8ea]
+Description=open librewolf
+desktops=02264b2a-1f66-4c11-9ba8-e88f36fd4f1b
+desktopsrule=3
+wmclass=librewolf
+wmclassmatch=1
+
+[76a3f102-99ab-48bd-aa1e-f2f7b77eb341]
+Description=New window settings
+wmclassmatch=1
+
+[8b6fd2f2-aa11-41ec-ac48-5716f59c6a41]
+desktopsrule=3
+
+[General]
+count=4
+rules=d4f481ed-46a9-4dc0-9536-4394d5ef5e87,3cb0c162-a1cc-4012-8c3d-61a509eca8ea,1345d034-3bfe-42ff-83ab-9ee8b6cee0ac,76a3f102-99ab-48bd-aa1e-f2f7b77eb341
+
+[d4f481ed-46a9-4dc0-9536-4394d5ef5e87]
+Description=open alacritty
+desktops=f580d588-cbb3-4e2a-bea8-603d55bbe07c
+desktopsrule=3
+wmclass=alacritty
+wmclassmatch=1
