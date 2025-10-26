@@ -52,6 +52,9 @@ plugin=org.kde.plasma.pager
 immutability=1
 plugin=org.kde.plasma.icontasks
 
+[Containments][106][Applets][109][Configuration][General]
+launchers=applications:systemsettings.desktop,applications:org.kde.discover.desktop,preferred://filemanager,preferred://browser,applications:org.mozilla.firefox.desktop
+
 [Containments][106][Applets][110]
 immutability=1
 plugin=org.kde.plasma.marginsseparator
@@ -177,7 +180,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][112][Applets][131][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 
 [Containments][112][General]
 extraItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.vault,org.kde.plasma.brightness,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.cameraindicator,org.kde.kdeconnect,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.kupapplet,org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.volume
